@@ -4,23 +4,17 @@ void change(double&, double&);
 //-------------------------
 int main(){
 
-	double val1, val2;
+	double vmin, vmax, temp;
+	vmin = vmax = 0;
 
-	while (cin >> val1 >> val2){
+	while (cin >> temp){
 		
-		if (val1 < val2)
-			change(val1, val2);
+		if (temp < vmin)
+			cout << "Наименьшее среди введенных" << endl;
 
-		if (val1 == val2)
-			cout << "Числа равны" << endl;
+		if (temp > vmax)
+			cout << "Наибольшее среди введенных" << endl;
 
-		if (abs(val1 - val2) < 0.01)
-			cout << "Числа почти равны" << endl;
-		
-		else{
-				cout << "Наименьшее значение равно: " << val2 << endl;
-				cout << "Наибольшее значение равно: " << val1 << endl;	
-		}
 	}
 
 	return 0;
