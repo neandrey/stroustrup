@@ -9,12 +9,14 @@ int main(){
 
 	while (cin >> temp){
 		
-		if (temp < vmin)
+		if (temp < vmin){
+			vmin = temp;
 			cout << "Наименьшее среди введенных" << endl;
+		}
 
-		if (temp > vmax)
+		if (temp > vmax){
 			cout << "Наибольшее среди введенных" << endl;
-
+		}
 	}
 
 	return 0;
