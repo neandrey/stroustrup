@@ -12,14 +12,10 @@ int main(){
 	*/
 	
 
-	for (string temp; cin >> temp;){
-		int i = 0;
-		for(auto it : s_number){
-			if (it == temp)
+	for (string temp; cin >> temp;)
+		for(int i = 0; i < s_number.size(); ++i)
+			if (s_number[i] == temp)
 				cout << i << endl; 
-			++i;
-		}
-	}
 	
 	return 0;
 }
