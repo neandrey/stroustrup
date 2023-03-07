@@ -10,7 +10,6 @@ int main(){
 	while (cin >> temp){
 		
 		if (temp < vmin){
-			vmin = temp;
 			cout << "Наименьшее среди введенных" << endl;
 		}
 
