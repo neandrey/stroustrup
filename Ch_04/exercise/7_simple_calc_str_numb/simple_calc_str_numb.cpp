@@ -1,22 +1,22 @@
 #include "std_lib_facilities.h"
 
-int str_to_digit(string val){
+int str_to_digit(string val) {
+	/*поиск значеня в числах либо в строках, если не нашли -1*/
 
-	vector<string> str_numb1 = {"zero", "one", "two", "three", "four",
+	vector<string> str_numb = {"zero", "one", "two", "three", "four",
 								"five", "six", "seven", "eight", "nine"};
 	
-	vector<string> str_numb2 = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
+	vector<string> numb_numb = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
 
-	for (int i = 0; i != str_numb1.size(); ++i) {
-		if (str_numb1[i] == val)
+	for (size_t i = 0; i != str_numb.size(); ++i) 
+		if (str_numb[i] == val)
 			return i; 
-		else if (str_numb2[i] == val)
-			return i;
 
-	}
-
-	return -1;	
+	for (size_t i = 0; i != numb_numb.size(); ++i) 
+		if (numb_numb[i] == val)
+			return i; 
 	
+	return -1;	
 }
 
 
@@ -28,7 +28,6 @@ int main(){
 	string s_oper;
 
 
-
 	cout << "Введите два аргумента типа double" <<
 	 	" и знак операции (+, -, *, /): ";
 
@@ -36,6 +35,9 @@ int main(){
 
 	val1 = str_to_digit(arg1);
 	val2 = str_to_digit(arg2);
+
+	if(!val1 or !val2)
+		error("Ошибка, неправильно ввели аргумент!");
 
 	switch(operation){
 		case '+':
