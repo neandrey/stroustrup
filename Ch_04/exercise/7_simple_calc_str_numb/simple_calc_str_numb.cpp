@@ -1,4 +1,8 @@
 #include "std_lib_facilities.h"
+/*В русском переводе есть неточность в переводе именно одиноченое число 
+Modify the “mini calculator” from exercise 5 to accept (just) single-digit
+numbers written as either digits or spelled out.
+*/
 
 int str_to_digit(string val) {
 	/*поиск значеня в числах либо в строках, если не нашли -1*/
