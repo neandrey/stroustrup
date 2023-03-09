@@ -13,30 +13,30 @@ int main(){
 
 	for (auto c_comp : v_answer) {
 
-		cout << "Введите камень(s), ножницы(r) или бумага(p): ";	
+		cout << "Введите камень(r), ножницы(s) или бумага(p): ";	
 		cin >> c_user;
 
 		switch (c_user){
 			case 'r':
-				if (c_comp == 's')
-					cout << s_lose;
-				else if (c_comp == 'p')
-					cout << s_win;
-				else
-					cout << s_equal;
-				break;
-			case 'p':
-				if (c_comp == 'r')
+				if (c_comp == 'p')
 					cout << s_lose;
 				else if (c_comp == 's')
 					cout << s_win;
 				else
 					cout << s_equal;
 				break;
-			case 's':
-				if (c_comp == 'p')
+			case 'p':
+				if (c_comp == 's')
 					cout << s_lose;
 				else if (c_comp == 'r')
+					cout << s_win;
+				else
+					cout << s_equal;
+				break;
+			case 's':
+				if (c_comp == 'r')
+					cout << s_lose;
+				else if (c_comp == 'p')
 					cout << s_win;
 				else
 					cout << s_equal;
