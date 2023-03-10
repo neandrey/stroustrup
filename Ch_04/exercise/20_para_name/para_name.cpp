@@ -30,10 +30,10 @@ int main(){
 	cin >> name;
 
 	int res = find_name(name, names);
-	if(res > 0)
+	if (res < 0)
+		cout << "Имя не найденo." << endl;
+	else
 		cout << scores[res] << endl;
-	else 
-		cout << "Имя не найдено" << endl;
 
 
 	return 0;
