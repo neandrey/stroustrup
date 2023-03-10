@@ -1,4 +1,4 @@
-//sqr_equation ax2 + b + c = 0
+//name_value
 #include "std_lib_facilities.h"
 
 class Name_value {
