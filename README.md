@@ -7,18 +7,18 @@
 
 
 
-| Глава 2                                          |
-| ------------------------------------------------ |
-| [ex1 hello_world](Ch_02/hello_world/hello_world.cpp)|
+| Глава 2                                              |
+| ---------------------------------------------------- |
+| [ex1 hello_world](Ch_02/hello_world/hello_world.cpp) |
 
 
-|                       Глава 3                        |                                                              |
-| :--------------------------------------------------: | :----------------------------------------------------------: |
-|    [ex1 basic calc]([base_part][Ch_03]basic_calc)    |        [ex2 mile to km]([base_part][Ch_03]mile_to_km)        |
-|     [ex3 part numb]([base_part][Ch_03]part_numb)     |         [ex4 sum money]([base_part][Ch_03]sum_money)         |
-| [ex5 three strings]([base_part][Ch_03]three_strings) |      [ex6 three values]([base_part][Ch_03]three_values)      |
-|    [ex7 two values]([base_part][Ch_03]two_values)    | [ex7 two values double]([base_part][Ch_03]two_values_double) |
-|  [ex8 word to numb]([base_part][Ch_03]word_to_numb)  |
+|                               Глава 3                                |                                                                                 |
+| :------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+|     [ex1 basic calc](/Ch_03/exercise/basic_calc/basic_calc.cpp)      |           [ex2 mile to km](/Ch_03/exercise/mile_to_km/mile_to_km.cpp)           |
+|       [ex3 part numb](/Ch_03/exercise/part_numb/part_numb.cpp)       |            [ex4 sum money](/Ch_03/exercise/sum_money/sum_money.cpp)             |
+| [ex5 three strings](/Ch_03/exercise/three_strings/three_strings.cpp) |        [ex6 three values](/Ch_03/exercise/three_values/three_values.cpp)        |
+|     [ex7 two values](/Ch_03/exercise/two_values/two_values.cpp)      | [ex7 two values double](/Ch_03/exercise/two_values_double/std_lib_facilities.h) |
+|  [ex8 word to numb](/Ch_03/exercise/word_to_numb/word_to_numb.cpp)   |
 
 
 | Глава 4                                                      |                                                                      |
