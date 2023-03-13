@@ -6,9 +6,10 @@
 [Ch_04]:Ch_04/exercise/
 
 
+
 | Глава 2                                          |
 | ------------------------------------------------ |
-| [ex1 hello_world]("[base_part][Ch_02]hello_world") |
+| [ex1 hello_world](Ch_02/hello_world/hello_world.cpp)|
 
 
 |                       Глава 3                        |                                                              |
