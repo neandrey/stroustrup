@@ -29,8 +29,8 @@
 | [ex7 simple calc str](/Ch_04/exercise/7_simple_calc_str/simple_calc_str.cpp) | [ex8 chess rice](/Ch_04/exercise/8_chess_rice/chess_rice.cpp)                  |
 | [ex9 chess rice limit](/Ch_04/exercise/9_chess_rice_lim/chess_rice_lim.cpp)  | [ex10 rock paper scissors](/Ch_04/exercise/10_r_p_s_game/r_p_s_game.cpp)       |
 | [ex11 simple numb](/Ch_04/exercise/11_simple_numb/simple_numb.cpp)           | [ex12 simple numb max](/Ch_04/exercise/12_simple_numb_max/simple_numb_max.cpp) |
-| [ex13 sieve eratosthenes]([base_part][Ch_04]13_sieve_eratos)                 | [ex14 sieve_eratos_max]([base_part][Ch_04]14_sieve_eratos_max)                 |
-| [ex15 simple numb n]([base_part][Ch_04]15_simple_numb_n)                     | [ex16 moda]([base_part][Ch_04]16_moda)                                         |
-| [ex17 moda_string]([base_part][Ch_04]17_moda_string)                         | [ex18 sqr equation]([base_part][Ch_04]18_sqr_equation)                         |
-| [ex19 para]([base_part][Ch_04]19_para)                                       | [ex20 para name]([base_part][Ch_04]20_para_name)                               |
-| [ex21 para points]([base_part][Ch_04]21_para_point)                          |
+| [ex13 sieve eratosthenes](/Ch_04/exercise/13_sieve_eratos/sieve_ertos.cpp)   | [ex14 sieve_eratos_max]()                                                      |
+| [ex15 simple numb n](/Ch_04/exercise/15_simple_numb_n/simple_numb_n.cpp)     | [ex16 moda](/Ch_04/exercise/16_moda/moda.cpp)                                  |
+| [ex17 moda_string](/Ch_04/exercise/17_moda_string/moda_str.cpp)              | [ex18 sqr equation](/Ch_04/exercise/18_sqr_equation/sqr_equ.cpp)               |
+| [ex19 para](/Ch_04/exercise/19_para/para.cpp)                                | [ex20 para name](/Ch_04/exercise/20_para_name/para_name.cpp)                   |
+| [ex21 para points](/Ch_04/exercise/21_para_points/para_point.cpp)            |
