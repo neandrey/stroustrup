@@ -21,16 +21,16 @@
 |  [ex8 word to numb](/Ch_03/exercise/word_to_numb/word_to_numb.cpp)   |
 
 
-| Глава 4                                                      |                                                                      |
-| ------------------------------------------------------------ | -------------------------------------------------------------------- |
-| [ex1]([base_part][Ch_04]1_exercise)                          | [ex2 mediana]([base_part][Ch_04]2_mediana)                           |
-| [ex3 city dist]([base_part][Ch_04]3_city_dist)               | [ex4 guess numb]([base_part][Ch_04]4_guess_numb)                     |
-| [ex5 simple calc]([base_part][Ch_04]5_simple_calc)           | [ex6 vector numb]([base_part][Ch_04]6_vector_numb)                   |
-| [ex7 simple calc str]([base_part][Ch_04]7_simple_calc_str)   | [ex8 chess rice]([base_part][Ch_04]8_chess_rice)                     |
-| [ex9 chess rice limit]([base_part][Ch_04]9_chess_rice_limit) | [ex10 rock paper scissors]([base_part][Ch_04]10_rock_paper_scissors) |
-| [ex11 simple numb]([base_part][Ch_04]11_simple_numb)         | [ex12 simple numb max]([base_part][Ch_04]12_simple_numb_max)         |
-| [ex13 sieve eratosthenes]([base_part][Ch_04]13_sieve_eratos) | [ex14 sieve_eratos_max]([base_part][Ch_04]14_sieve_eratos_max)       |
-| [ex15 simple numb n]([base_part][Ch_04]15_simple_numb_n)     | [ex16 moda]([base_part][Ch_04]16_moda)                               |
-| [ex17 moda_string]([base_part][Ch_04]17_moda_string)         | [ex18 sqr equation]([base_part][Ch_04]18_sqr_equation)               |
-| [ex19 para]([base_part][Ch_04]19_para)                       | [ex20 para name]([base_part][Ch_04]20_para_name)                     |
-| [ex21 para points]([base_part][Ch_04]21_para_point)          |
+| Глава 4                                                                      |                                                                                |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| [ex1](/Ch_04/exercise/1_exercise/exercise.cpp)                               | [ex2 mediana](/Ch_04/exercise/2_mediana/mediana.cpp)                           |
+| [ex3 city dist](/Ch_04/exercise/3_city_dist/city_dist.cpp)                   | [ex4 guess numb](/Ch_04/exercise/4_guess_numb/guess_numb.cpp)                  |
+| [ex5 simple calc](/Ch_04/exercise/5_simple_calc/simple_calc.cpp)             | [ex6 vector numb](/Ch_04/exercise/6_vector_numb/vector_numb.cpp)               |
+| [ex7 simple calc str](/Ch_04/exercise/7_simple_calc_str/simple_calc_str.cpp) | [ex8 chess rice](/Ch_04/exercise/8_chess_rice/chess_rice.cpp)                  |
+| [ex9 chess rice limit](/Ch_04/exercise/9_chess_rice_lim/chess_rice_lim.cpp)  | [ex10 rock paper scissors](/Ch_04/exercise/10_r_p_s_game/r_p_s_game.cpp)       |
+| [ex11 simple numb](/Ch_04/exercise/11_simple_numb/simple_numb.cpp)           | [ex12 simple numb max](/Ch_04/exercise/12_simple_numb_max/simple_numb_max.cpp) |
+| [ex13 sieve eratosthenes]([base_part][Ch_04]13_sieve_eratos)                 | [ex14 sieve_eratos_max]([base_part][Ch_04]14_sieve_eratos_max)                 |
+| [ex15 simple numb n]([base_part][Ch_04]15_simple_numb_n)                     | [ex16 moda]([base_part][Ch_04]16_moda)                                         |
+| [ex17 moda_string]([base_part][Ch_04]17_moda_string)                         | [ex18 sqr equation]([base_part][Ch_04]18_sqr_equation)                         |
+| [ex19 para]([base_part][Ch_04]19_para)                                       | [ex20 para name]([base_part][Ch_04]20_para_name)                               |
+| [ex21 para points]([base_part][Ch_04]21_para_point)                          |
