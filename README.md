@@ -8,7 +8,7 @@
 
 | Глава 2                                          |
 | ------------------------------------------------ |
-| [ex1 hello_world]([base_part][Ch_02]hello_world) |
+| [ex1 hello_world]("[base_part][Ch_02]hello_world") |
 
 
 |                       Глава 3                        |                                                              |
