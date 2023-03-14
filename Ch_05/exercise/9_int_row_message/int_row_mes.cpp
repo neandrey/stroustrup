@@ -15,8 +15,6 @@ int main(){
 
 	cout << "Введите несколько целых чисел (| для окончания ввода): ";
 	for(int temp; cin >> temp; ){
-		if(!cin)
-			error("Результат не может быть представлен в виде int");
 		i_val.push_back(temp);
 	}
 
