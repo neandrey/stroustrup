@@ -23,14 +23,16 @@ int main(){
 	//подсчет совпадений
 	int bull = 0;
 	int cows = 0;
-	for(size_t i = 0; i != numb_of_digits; ++i){
-		if(in_vec[i] == res_vec[i]){
-			++bull;
-		}
-		if(in_vec[i] == res_vec[numb_of_digits-(1 + i)]){
-			++cows;
-		}
-	}
+
+	for(size_t i = 0; i != numb_of_digits; ++i)
+		for(size_t j = 0; j != numb_of_digits; ++j)
+			if(in_vec[i] == res_vec[j]){
+				if(i == j)
+					++bull;
+				else
+					++cows;
+			}
+
 	//вывод результата
 	cout << "Количество быков " << bull << " Количество коров " << cows << endl;
 
