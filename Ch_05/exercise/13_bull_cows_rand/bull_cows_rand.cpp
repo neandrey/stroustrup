@@ -12,18 +12,19 @@
 const int numb_of_digits = 4;
 //------------------------------
 int input_user();
-vector<int> parsing_number(vector<int>, int);
-pair<int, int> find_number(vector<int> in_vec, vector<int> guess_vec);
+vector<int> &parsing_number(vector<int> &in_vec, int);
+pair<int, int> find_number(vector<int> &in_vec, vector<int> &guess_vec);
 void print_result(pair<int, int>);
 bool game_true(pair<int, int>);
-vector<int> random_guess(vector<int> guess_vec);
+vector<int> &random_guess(vector<int> &guess_vec);
+void clear();
 //-----------------------------------------
 int main(){
 
 	int n, numb = 0;
 	vector<int> in_vec;
-	vector<int> guess_vec(4, 0); //{0, 0, 0, 0}
-	pair<int, int> bull_cows{0, 0}; //1-bull, 2-cows
+	vector<int> guess_vec; 
+	pair<int, int> bull_cows; //1-bull, 2-cows
 
 	char answer = 'y';
 	do{	
@@ -35,7 +36,13 @@ int main(){
 			bull_cows = find_number(in_vec, guess_vec);
 			print_result(bull_cows);
 		}
-		
+		//очистка переменных
+		bull_cows.first = 0; 
+		bull_cows.second =0;
+		guess_vec.clear();
+		in_vec.clear();
+		//clear();
+
 	cout << "Хочешь еще раз сыграть (y/n): ";
 	cin >> answer;
 	}while(answer != 'n');
@@ -43,6 +50,14 @@ int main(){
 	return 0;
 }
 //-----------------------------------------------
+/*void clear(){
+	bull_cows.first = 0; 
+	bull_cows.secone = 0;
+	guess_vec.clear();
+	in_vec.clear();
+}
+*/
+//-------------------------------------------------
 int input_user(){
 	//ввод 4-х значного числа
 	int n;
@@ -54,7 +69,7 @@ int input_user(){
 	return n;
 }
 //-----------------------------------------------
-vector<int> parsing_number(vector<int> in_vec, int n){
+vector<int> &parsing_number(vector<int> &in_vec, int n){
 	//разбор числа (единицы, десятки, сотни,) от пользователя
 	for (size_t i = 0; i != numb_of_digits; ++i){
 		int pow_numb = static_cast<int>(pow(10, i));
@@ -66,7 +81,7 @@ vector<int> parsing_number(vector<int> in_vec, int n){
 	return in_vec;
 }
 //------------------------------------------------
-pair<int, int> find_number(vector<int> in_vec, vector<int> guess_vec){
+pair<int, int> find_number(vector<int> &in_vec, vector<int> &guess_vec){
 	//подсчет совпадений
 	int bull = 0;
 	int cows = 0;
@@ -97,12 +112,12 @@ bool game_true(pair<int, int> bull_cows){
 	return false;
 }
 //-----------------------------------------------------
-vector<int> random_guess(vector<int> guess_vec){
+vector<int> &random_guess(vector<int> &guess_vec){
 	//заполняем вектор случайными значениями
 
 	srand((unsigned)time(0));
 	for (size_t i = 0; i != numb_of_digits; ++i)
-		guess_vec[i] = randint(10);
+		guess_vec.push_back(randint(10));
 
 	return guess_vec;
 }
