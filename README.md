@@ -47,4 +47,4 @@
 | [ex3 factorial](/Ch_06/exercise/3_factorial/first_calc.cpp)                    | [ex 4 name_value](/Ch_06/exercise/4_name_value/name_value.cpp) |
 | ex 5                                                                           | ex6                                                            |
 | [ex7 logical operations](/Ch_06/exercise/7_logical_operation/logical_oper.cpp) | ex8                                                            |
-| [ex9 char to int](/Ch_06/exercise/9_char_to_int/char_to_int.cpp)               | ex10                                                           |
+| [ex9 char to int](/Ch_06/exercise/9_char_to_int/char_to_int.cpp)               | [ex10](/Ch_06/exercise/10_permutation/permutation.cpp)         |
