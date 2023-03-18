@@ -41,7 +41,10 @@
 | [ex13 bull cows rand](/Ch_05/exercise/13_bull_cows_rand/bull_cows_rand.cpp) | ex14                                                                        |
 
 
-| Глава 6                                                     |                                                                |
-| ----------------------------------------------------------- | -------------------------------------------------------------- |
-| ex1                                                         | [ex2 brake {}](/Ch_06/exercise/2_brake_{}/first_calc.cpp)      |
-| [ex3 factorial](/Ch_06/exercise/3_factorial/first_calc.cpp) | [ex 4 name_value](/Ch_06/exercise/4_name_value/name_value.cpp) |
+| Глава 6                                                                        |                                                                |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------------- |
+| ex1                                                                            | [ex2 brake {}](/Ch_06/exercise/2_brake_{}/first_calc.cpp)      |
+| [ex3 factorial](/Ch_06/exercise/3_factorial/first_calc.cpp)                    | [ex 4 name_value](/Ch_06/exercise/4_name_value/name_value.cpp) |
+| ex 5                                                                           | ex6                                                            |
+| [ex7 logical operations](/Ch_06/exercise/7_logical_operation/logical_oper.cpp) | ex8                                                            |
+| [ex9 char to int](/Ch_06/exercise/9_char_to_int/char_to_int.cpp)               | ex10                                                           |
