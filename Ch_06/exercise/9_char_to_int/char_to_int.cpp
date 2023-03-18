@@ -11,6 +11,8 @@ int main(int argc, char const *argv[])
     int thousands, hundred, tens, ones;
     thousands = hundred = tens = ones = 0;
 
+
+    cout << "Введите число от 1 до 4 цифр, для окончания ввода ; (123;): ";
     for(size_t i = 0; i != lim_number; ++i){
             cin >> ch;
             if(ch == ';')
