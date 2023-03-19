@@ -48,3 +48,8 @@
 | ex 5                                                                           | ex6                                                            |
 | [ex7 logical operations](/Ch_06/exercise/7_logical_operation/logical_oper.cpp) | ex8                                                            |
 | [ex9 char to int](/Ch_06/exercise/9_char_to_int/char_to_int.cpp)               | [ex10](/Ch_06/exercise/10_permutation/permutation.cpp)         |
+
+| Глава 7                                                         |                                                     |
+| --------------------------------------------------------------- | --------------------------------------------------- |
+| [ex1 var underline](Ch_07/exercise/1_var_underline/var_und.cpp) | [ex2 equal](Ch_07/exercise/2_equal_op/equal_op.cpp) |
+| [ex3 add const](Ch_07/exercise/3_add_const/add_const.cpp)       |                                                     |
