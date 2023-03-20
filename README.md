@@ -49,7 +49,18 @@
 | [ex7 logical operations](/Ch_06/exercise/7_logical_operation/logical_oper.cpp) | ex8                                                            |
 | [ex9 char to int](/Ch_06/exercise/9_char_to_int/char_to_int.cpp)               | [ex10](/Ch_06/exercise/10_permutation/permutation.cpp)         |
 
+
 | Глава 7                                                         |                                                     |
 | --------------------------------------------------------------- | --------------------------------------------------- |
 | [ex1 var underline](Ch_07/exercise/1_var_underline/var_und.cpp) | [ex2 equal](Ch_07/exercise/2_equal_op/equal_op.cpp) |
 | [ex3 add const](Ch_07/exercise/3_add_const/add_const.cpp)       |                                                     |
+
+
+| Глава 8                                                               |                                                                              |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| ex1                                                                   | [ex2 print function](/Ch_08/exercise/2_print_func/print_func.cpp)            |
+| [ex3 vector fibonacci](/Ch_08/exercise/3_v_fibonacci/v_fibonacci.cpp) | [ex4 revers vector](Ch_08/exercise/5_rev_vector/rev_vector.cpp)              |
+| [ex5 revers vector](Ch_08/exercise/5_rev_vector/rev_vector.cpp)       | [ex6 revers vector str](/Ch_08/exercise/6_rev_str_vector/rev_str_vector.cpp) |
+| [ex7 five name](/Ch_08/exercise/7_five_name/five_name.cpp)            |
+
+
