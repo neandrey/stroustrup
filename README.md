@@ -61,6 +61,7 @@
 | ex1                                                                   | [ex2 print function](/Ch_08/exercise/2_print_func/print_func.cpp)            |
 | [ex3 vector fibonacci](/Ch_08/exercise/3_v_fibonacci/v_fibonacci.cpp) | [ex4 revers vector](Ch_08/exercise/5_rev_vector/rev_vector.cpp)              |
 | [ex5 revers vector](Ch_08/exercise/5_rev_vector/rev_vector.cpp)       | [ex6 revers vector str](/Ch_08/exercise/6_rev_str_vector/rev_str_vector.cpp) |
-| [ex7 five name](/Ch_08/exercise/7_five_name/five_name.cpp)            |
+| [ex7 five name](/Ch_08/exercise/7_five_name/five_name.cpp)            | [ex8 sum multiplication](Ch_08/exercise/8_sum_multiplic/sum_multiplic.cpp)   |
+| [ex9 maxv](/Ch_08/exercise/9_maxv/maxv.cpp)                           |
 
 
