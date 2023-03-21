@@ -6,13 +6,13 @@
 | [ex1 hello_world](Ch_02/hello_world/hello_world.cpp) |
 
 
-|                               Глава 3                                |                                                                                 |
-| :------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
-|     [ex1 basic calc](/Ch_03/exercise/basic_calc/basic_calc.cpp)      |           [ex2 mile to km](/Ch_03/exercise/mile_to_km/mile_to_km.cpp)           |
-|       [ex3 part numb](/Ch_03/exercise/part_numb/part_numb.cpp)       |            [ex4 sum money](/Ch_03/exercise/sum_money/sum_money.cpp)             |
-| [ex5 three strings](/Ch_03/exercise/three_strings/three_strings.cpp) |        [ex6 three values](/Ch_03/exercise/three_values/three_values.cpp)        |
-|     [ex7 two values](/Ch_03/exercise/two_values/two_values.cpp)      | [ex7 two values double](/Ch_03/exercise/two_values_double/std_lib_facilities.h) |
-|  [ex8 word to numb](/Ch_03/exercise/word_to_numb/word_to_numb.cpp)   |
+| Глава 3                                                              |                                                                                 |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [ex1 basic calc](/Ch_03/exercise/basic_calc/basic_calc.cpp)          | [ex2 mile to km](/Ch_03/exercise/mile_to_km/mile_to_km.cpp)                     |
+| [ex3 part numb](/Ch_03/exercise/part_numb/part_numb.cpp)             | [ex4 sum money](/Ch_03/exercise/sum_money/sum_money.cpp)                        |
+| [ex5 three strings](/Ch_03/exercise/three_strings/three_strings.cpp) | [ex6 three values](/Ch_03/exercise/three_values/three_values.cpp)               |
+| [ex7 two values](/Ch_03/exercise/two_values/two_values.cpp)          | [ex7 two values double](/Ch_03/exercise/two_values_double/std_lib_facilities.h) |
+| [ex8 word to numb](/Ch_03/exercise/word_to_numb/word_to_numb.cpp)    |
 
 
 | Глава 4                                                                      |                                                                                |
@@ -41,13 +41,13 @@
 | [ex13 bull cows rand](/Ch_05/exercise/13_bull_cows_rand/bull_cows_rand.cpp) | ex14                                                                        |
 
 
-| Глава 6                                                                        |                                                                |
-| ------------------------------------------------------------------------------ | -------------------------------------------------------------- |
-| ex1                                                                            | [ex2 brake {}](/Ch_06/exercise/2_brake_{}/first_calc.cpp)      |
-| [ex3 factorial](/Ch_06/exercise/3_factorial/first_calc.cpp)                    | [ex 4 name_value](/Ch_06/exercise/4_name_value/name_value.cpp) |
-| ex 5                                                                           | ex6                                                            |
-| [ex7 logical operations](/Ch_06/exercise/7_logical_operation/logical_oper.cpp) | ex8                                                            |
-| [ex9 char to int](/Ch_06/exercise/9_char_to_int/char_to_int.cpp)               | [ex10](/Ch_06/exercise/10_permutation/permutation.cpp)         |
+| Глава 6                                                                        |                                                               |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| ex1                                                                            | [ex2 brake {}](/Ch_06/exercise/2_brake_{}/first_calc.cpp)     |
+| [ex3 factorial](/Ch_06/exercise/3_factorial/first_calc.cpp)                    | [ex4 name_value](/Ch_06/exercise/4_name_value/name_value.cpp) |
+| ex 5                                                                           | ex6                                                           |
+| [ex7 logical operations](/Ch_06/exercise/7_logical_operation/logical_oper.cpp) | ex8                                                           |
+| [ex9 char to int](/Ch_06/exercise/9_char_to_int/char_to_int.cpp)               | [ex10](/Ch_06/exercise/10_permutation/permutation.cpp)        |
 
 
 | Глава 7                                                         |                                                     |
