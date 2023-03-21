@@ -63,5 +63,6 @@
 | [ex5 revers vector](Ch_08/exercise/5_rev_vector/rev_vector.cpp)       | [ex6 revers vector str](/Ch_08/exercise/6_rev_str_vector/rev_str_vector.cpp) |
 | [ex7 five name](/Ch_08/exercise/7_five_name/five_name.cpp)            | [ex8 sum multiplication](Ch_08/exercise/8_sum_multiplic/sum_multiplic.cpp)   |
 | [ex9 maxv](/Ch_08/exercise/9_maxv/maxv.cpp)                           | [ex10 max min mediana](Ch_08/exercise/10_max_min_vec/max_min_vec.cpp)        |
-
+| [ex11 print units](/Ch_08/exercise/11_print_units/print_units.cpp)    | [ex12 count symbol](/Ch_08/exercise/12_count_symbl/count_symbl.cpp)          |
+| [ex13 const arg](Ch_08/exercise/13_const_arg/const_arg.cpp)           |
 
