@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
 {
     vector<string> s_vec = {"one", "two", "five", "seven", "triangle"};
     vector<int> i_vec;
-    int max_len_s, min_len_s;
+    int max_len_s = 0, min_len_s = 0;
     string max_s, min_s;
 
     i_vec = count_symbol(s_vec);
