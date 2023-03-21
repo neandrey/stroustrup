@@ -8,7 +8,7 @@ string min_str(vector<string> v_str);
 //------------------------------------------
 int main(int argc, char const *argv[])
 {
-    vector<string> s_vec = {"one", "two", "three", "five", "six"};
+    vector<string> s_vec = {"one", "two", "five", "seven", "triangle"};
     vector<int> i_vec;
     int max_len_s, min_len_s;
     string max_s, min_s;
@@ -24,6 +24,12 @@ int main(int argc, char const *argv[])
 
     min_len_s = min_len_str(s_vec);
     cout << min_len_s << endl;
+
+    max_s = max_str(s_vec);
+    cout << max_s << endl;
+
+    min_s = min_str(s_vec);
+    cout << min_s << endl;
 
     return 0;
 }
@@ -60,5 +66,21 @@ int min_len_str(const vector<string> &v_str)
             min = str;
     
     return min.size();
+}
+//----------------------------------------------------
+string max_str(vector<string> v_str)
+{
+    if(!v_str.size())
+        return "";
+    sort(v_str.begin(), v_str.end());
+    return *(v_str.end()-1);
+}
+//----------------------------------------------------
+string min_str(vector<string> v_str)
+{   
+    if(!v_str.size())
+        return "";
+    sort(v_str.begin(), v_str.end());
+    return *(v_str.begin());
 }
 //-----------------------------------------------------
