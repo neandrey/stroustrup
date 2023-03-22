@@ -66,3 +66,8 @@
 | [ex11 print units](/Ch_08/exercise/11_print_units/print_units.cpp)    | [ex12 count symbol](/Ch_08/exercise/12_count_symbl/count_symbl.cpp)          |
 | [ex13 const arg](Ch_08/exercise/13_const_arg/const_arg.cpp)           |
 
+
+| Глава 9                                                                         |                                                               |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| [ex1]                                                                           | [ex2 name pairs](/Ch_09/exercise/2_name_pairs/main_pairs.cpp) |
+| [ex3 name pairs operator](/Ch_09/exercise/3_name_pairs_operator/main_pairs.cpp) |                                                               |
