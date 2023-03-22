@@ -38,7 +38,6 @@ void Name_pairs::print(){
 
 void Name_pairs::sort(){
 
-
     vector<string> t_name{name};
     vector<double> t_age;
 
