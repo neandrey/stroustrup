@@ -69,5 +69,5 @@
 
 | Глава 9                                                                         |                                                               |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| ex1                                                                           | [ex2 name pairs](/Ch_09/exercise/2_name_pairs/main_pairs.cpp) |
-| [ex3 name pairs operator](/Ch_09/exercise/3_name_pairs_operator/main_pairs.cpp) |                                                               |
+| ex1                                                                             | [ex2 name pairs](/Ch_09/exercise/2_name_pairs/main_pairs.cpp) |
+| [ex3 name pairs operator](/Ch_09/exercise/3_name_pairs_operator/main_pairs.cpp) | [ex5,6,7,8,9 Library](Ch_09/exercise/5,6,7,8,9_book_class/)   |
