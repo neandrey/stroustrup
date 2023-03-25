@@ -50,5 +50,6 @@ ostream &operator<<(ostream &os, const Name_pairs &np){
 
     for(size_t i = 0; i != np.get_size(); ++i)
         os << np.get_name(i) << " " << np.get_age(i) << endl;
+    return os;
 }
 }
