@@ -12,6 +12,7 @@ public:
     void set_numerator(int n) { numerator = n; }
     void set_denominator(int d) { denominator = d; }
     Rational &operator=(const Rational &r1);
+    Rational &reduction(Rational &rr);
 private:
     int numerator;
     int denominator;

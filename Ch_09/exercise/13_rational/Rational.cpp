@@ -17,11 +17,13 @@ double convert(const Rational &rr){
 //---------------------------------------------------------------------------
 Rational operator+(const Rational &r1, const Rational &r2){
 
-    Rational temp{1, 1};
+    Rational temp;
     if(r1.get_denominator() == r2.get_denominator()){
         temp.set_denominator(r1.get_denominator());
         temp.set_numerator(r1.get_numerator() + r2.get_numerator()); 
     }
+
+    temp.reduction(temp);
 
     return temp;
 }
@@ -31,7 +33,14 @@ Rational operator-(const Rational &r1, const Rational &r2){
 }
 //-----------------------------------------------------------------------------
 Rational operator*(const Rational &r1, const Rational &r2){
-    //...
+    
+    Rational temp; 
+    temp.set_numerator(r1.get_numerator() * r2.get_numerator());
+    temp.set_denominator(r1.get_denominator() * r2.get_denominator());
+
+    temp.reduction(temp);
+
+    return temp;
 }
 //-----------------------------------------------------------------------------
 Rational operator/(const Rational &r1, const Rational &r2){
@@ -55,3 +64,16 @@ Rational &Rational::operator=(const Rational &r1){
     return *this;
 }
 //---------------------------------------------------------------------------------
+Rational &Rational::reduction(Rational &rr){
+
+    size_t max_val = min(rr.numerator, rr.denominator);
+
+    for(size_t i = 1; i <= max_val; ++i){
+        if(rr.numerator % i == 0 and rr.denominator % i == 0){
+            rr.numerator /= i;
+            rr.denominator /= i;
+        }
+    }
+
+    return rr;
+}
