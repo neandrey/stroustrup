@@ -9,6 +9,7 @@ Rational::Rational(int numeration, int denominator)
     :numerator{numeration}, denominator{denominator}
     {
         if(!denominator) throw Invalid();
+        reduction(numeration, denominator);
     }
 //----------------------------------------------------------
 double convert(const Rational &rr){
@@ -64,16 +65,20 @@ Rational &Rational::operator=(const Rational &r1){
     return *this;
 }
 //---------------------------------------------------------------------------------
-Rational &Rational::reduction(Rational &rr){
+Rational &Rational::reduction(int num, int den){
+    
+    size_t min_val = min(num, den);
 
-    size_t max_val = min(rr.numerator, rr.denominator);
-
-    for(size_t i = 1; i <= max_val; ++i){
-        if(rr.numerator % i == 0 and rr.denominator % i == 0){
-            rr.numerator /= i;
-            rr.denominator /= i;
+    for(size_t i = 1; i <= min_val; ++i){
+        if(num % i == 0 and den % i == 0){
+            this->numerator /= i;
+            this->denominator /= i;
         }
     }
+    return *this;
+}
+//----------------------------------------------------------------------------------
+Rational &Rational::reduction(Rational &rr){
 
-    return rr;
+    return reduction(rr.numerator, rr.denominator);
 }

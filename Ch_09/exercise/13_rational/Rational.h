@@ -13,6 +13,7 @@ public:
     void set_denominator(int d) { denominator = d; }
     Rational &operator=(const Rational &r1);
     Rational &reduction(Rational &rr);
+    Rational &reduction(int num, int den);
 private:
     int numerator;
     int denominator;
