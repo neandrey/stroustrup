@@ -20,6 +20,8 @@ private:
 };
 
 double convert(const Rational &rr);
+int find_noz(const Rational &r1, const Rational &r2);
+int find_multiplier(const Rational &rr, int noz);
 Rational operator+(const Rational &r1, const Rational &r2);
 Rational operator*(const Rational &r1, const Rational &r2);
 Rational operator-(const Rational &r1, const Rational &r2);
