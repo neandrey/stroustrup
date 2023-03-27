@@ -1,6 +1,8 @@
 #include "std_lib_facilities.h"
 #include "Rational.h"
 
+using namespace my_rational;
+
 int main(int argc, char const *argv[])
 {
     Rational r1{3, 9};

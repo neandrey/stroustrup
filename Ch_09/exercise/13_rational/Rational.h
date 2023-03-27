@@ -2,6 +2,8 @@
 #define RATIONAL_H
 #include "std_lib_facilities.h"
 
+namespace my_rational{
+
 class Rational{
 public:
     class Invalid{};
@@ -33,3 +35,4 @@ bool operator==(const Rational &r1, const Rational &r2);
 bool operator!=(const Rational &r1, const Rational &r2);
 
 #endif
+}

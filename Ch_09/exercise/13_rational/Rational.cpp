@@ -1,5 +1,6 @@
 #include "Rational.h"
 
+namespace my_rational{
 //--------------------------------------------------------
 Rational::Rational()
     :numerator{1}, denominator{1}
@@ -138,4 +139,5 @@ bool operator==(const Rational &r1, const Rational &r2){
 bool operator!=(const Rational &r1, const Rational &r2){
     
     return !(r1 == r2);
+}
 }
