@@ -52,13 +52,22 @@ Rational operator*(const Rational &r1, const Rational &r2){
     return temp;
 }
 //-----------------------------------------------------------------------------
-Rational operator/(const Rational &r1, const Rational &r2){
-    
+Rational operator/(const Rational &r1, Rational &r2){
+
+    Rational temp;
+    r2.swap_rational(r2);
+
+    temp.set_numerator(r1.get_numerator() * r2.get_numerator());
+    temp.set_denominator(r1.get_denominator() * r2.get_denominator());
+    temp.reduction(temp);
+
+    return temp;
+
 }
 //-----------------------------------------------------------------------------
 ostream &operator<<(ostream &os, const Rational &rr){
 
-    os << rr.get_numerator() << "/" << rr.get_denominator() << endl;
+    os << rr.get_numerator() << "/" << rr.get_denominator();
     return os;
 }
 //--------------------------------------------------------------------------------
@@ -109,5 +118,14 @@ int find_noz(const Rational &r1, const Rational &r2){
 int find_multiplier(const Rational &rr, int noz){
 
     return noz / rr.get_denominator();
+}
+//------------------------------------------------------------------
+Rational &Rational::swap_rational(Rational &rr){
+    
+    int temp_value = rr.numerator;
+    rr.numerator = rr.denominator;
+    rr.denominator = temp_value;
+
+    return rr;
 }
 //------------------------------------------------------------------
