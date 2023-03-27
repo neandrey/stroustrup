@@ -52,13 +52,13 @@ Rational operator*(const Rational &r1, const Rational &r2){
     return temp;
 }
 //-----------------------------------------------------------------------------
-Rational operator/(const Rational &r1, Rational &r2){
+Rational operator/(const Rational &r1, const Rational &r2){
 
-    Rational temp;
-    r2.swap_rational(r2);
+    Rational temp, temp_r2 = r2;
+    temp_r2.swap_rational(temp_r2);
 
-    temp.set_numerator(r1.get_numerator() * r2.get_numerator());
-    temp.set_denominator(r1.get_denominator() * r2.get_denominator());
+    temp.set_numerator(r1.get_numerator() * temp_r2.get_numerator());
+    temp.set_denominator(r1.get_denominator() * temp_r2.get_denominator());
     temp.reduction(temp);
 
     return temp;
@@ -129,3 +129,13 @@ Rational &Rational::swap_rational(Rational &rr){
     return rr;
 }
 //------------------------------------------------------------------
+bool operator==(const Rational &r1, const Rational &r2){
+
+    return r1.get_numerator() == r2.get_numerator() and
+            r1.get_denominator() == r2.get_denominator();
+}
+//----------------------------------------------------------------
+bool operator!=(const Rational &r1, const Rational &r2){
+    
+    return !(r1 == r2);
+}

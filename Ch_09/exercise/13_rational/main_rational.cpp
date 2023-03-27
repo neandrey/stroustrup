@@ -6,6 +6,7 @@ int main(int argc, char const *argv[])
     Rational r1{3, 9};
     Rational r2{3, 2};
     Rational r3;
+    Rational r4{3, 2};
     
     cout << convert(r1) << endl;
     cout << find_noz(r1, r2) << endl;
@@ -24,7 +25,9 @@ int main(int argc, char const *argv[])
 
     r3 = r1 / r2;
     cout << r3 << endl;
-    
+
+    if(r2 == r4)
+        cout << "r2 equal r4" << endl;
 
     return 0;
 }

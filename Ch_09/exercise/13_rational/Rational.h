@@ -27,7 +27,9 @@ int find_multiplier(const Rational &rr, int noz);
 Rational operator+(const Rational &r1, const Rational &r2);
 Rational operator*(const Rational &r1, const Rational &r2);
 Rational operator-(const Rational &r1, const Rational &r2);
-Rational operator/(const Rational &r1, Rational &r2);
+Rational operator/(const Rational &r1, const Rational &r2);
 ostream &operator<<(ostream &os, const Rational &rr);
+bool operator==(const Rational &r1, const Rational &r2);
+bool operator!=(const Rational &r1, const Rational &r2);
 
 #endif
