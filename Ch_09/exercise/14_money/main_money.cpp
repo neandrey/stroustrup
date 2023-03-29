@@ -12,10 +12,6 @@ int main(int argc, char const *argv[])
     Money money2;
     cin >> money2;
     cout << money2 << endl;
-
-    
-
-
     
     return 0;
 }

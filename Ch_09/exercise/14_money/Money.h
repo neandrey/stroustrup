@@ -12,6 +12,7 @@ public:
     class Invalid{};
     Money();
     Money(double m);
+    //Money(double m, );
     long get_money() const { return cent; }
     void set_money(long n) { cent = n; }
     size_t rounding(double n);
