@@ -32,6 +32,10 @@ Money::Money(double m)
     set_money(convert_to_cent(int_val));
 }
 //-------------------------------------------
+Money::Money(double m, string v){
+    
+}
+//----------------------------------------------
 size_t Money::rounding(double n)
 {
     int integer = static_cast<int>(n);

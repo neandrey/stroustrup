@@ -12,13 +12,12 @@ public:
     class Invalid{};
     Money();
     Money(double m);
-    //Money(double m, );
+    Money(double m, string v);
     long get_money() const { return cent; }
     void set_money(long n) { cent = n; }
     size_t rounding(double n);
     long convert_to_cent(size_t n);
     double convert_to_dollar();
-
 private:
     long cent;
 };
