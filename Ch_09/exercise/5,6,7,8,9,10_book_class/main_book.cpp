@@ -2,6 +2,7 @@
 #include "Library.h" 
 
 using namespace My_Library;
+using namespace Chrono;
 int main(int argc, char const *argv[])
 {
     Book book1{"Алгебра", "Перельман", "123-138-456-X", Genre::nonfiction};
@@ -22,6 +23,19 @@ int main(int argc, char const *argv[])
 
     cout << p1 << endl;
     cout << p2 << endl;
+
+//  проверка високосного года.
+    while(true){
+        int year;
+        cout << "Введите год: ";
+        cin >> year;
+
+        if(leapyear(year))
+            cout << "Високосный год " << endl;
+        else
+            cout << "Год не високосный" << endl;
+    }
+    
 
     Library ll;
 

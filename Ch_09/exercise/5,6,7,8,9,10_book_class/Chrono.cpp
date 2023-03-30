@@ -56,7 +56,17 @@ bool is_date(int y, Month m, int d){
 }
 
 bool leapyear(int y){
-    //...
+// делится на 100 и 400 без остатка.
+// делится на 4 без остатка.
+    
+    if(y % 400 == 0)
+        return true;
+    else if(y % 100 == 0)
+        return false;
+    else if(y % 4 == 0)
+        return true;
+
+    return false;
 }
 
 bool operator==(const Date &a, const Date &b){
