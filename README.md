@@ -67,8 +67,8 @@
 | [ex13 const arg](Ch_08/exercise/13_const_arg/const_arg.cpp)           |
 
 
-| Глава 9                                                                         |                                                               |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| ex1                                                                             | [ex2 name pairs](/Ch_09/exercise/2_name_pairs/main_pairs.cpp) |
-| [ex3 name pairs operator](/Ch_09/exercise/3_name_pairs_operator/main_pairs.cpp) | [ex5,6,7,8,9 Library](Ch_09/exercise/5,6,7,8,9_book_class/)   |
-| [ex13 rational numb](/Ch_09/exercise/13_rational/)                              | [ex14 Money](/Ch_09/exercise/14_money/)                       |
+| Глава 9                                                                         |                                                                            |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| ex1                                                                             | [ex2 name pairs](/Ch_09/exercise/2_name_pairs/main_pairs.cpp)              |
+| [ex3 name pairs operator](/Ch_09/exercise/3_name_pairs_operator/main_pairs.cpp) | [ex5,6,7,8,9,10 Library](Ch_09/exercise/5%2C6%2C7%2C8%2C9%2C10_book_class/) |
+| [ex13 rational numb](/Ch_09/exercise/13_rational/)                              | [ex14 Money](/Ch_09/exercise/14_money/)                                    |
