@@ -25,17 +25,16 @@ int main(int argc, char const *argv[])
     cout << p2 << endl;
 
 //  проверка високосного года.
-    while(true){
-        int year;
-        cout << "Введите год: ";
-        cin >> year;
 
+    vector<int> l_year = {2020, 2021, 2023, 2024, 1700, 2000};
+
+    for(auto year : l_year){
         if(leapyear(year))
-            cout << "Високосный год " << endl;
+            cout << year << " високосный год " <<  endl;
         else
-            cout << "Год не високосный" << endl;
+            cout << year << " год не високосный " << endl;
     }
-    
+
 
     Library ll;
 
