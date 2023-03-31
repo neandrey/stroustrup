@@ -46,6 +46,16 @@ istream &operator>>(istream &is, Point &p){
 
     return is; 
 }
+//---------------------------------------------------
+bool operator==(const Point &p1, const Point &p2) {
+
+    return (p1.get_x() == p2.get_x() and p1.get_y() == p2.get_y());
+}
+//----------------------------------------------
+bool operator!=(const Point &p1, const Point &p2)
+{
+    return !(p1 == p2);
+}
 //----------------------------------------------------
 }
 

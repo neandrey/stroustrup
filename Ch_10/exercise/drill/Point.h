@@ -26,6 +26,8 @@ private:
 bool is_correct(int x, int y);
 ostream &operator<<(ostream &os, const Point &p);
 istream &operator>>(istream &is, Point &p);
+bool operator==(const Point &p1, const Point &p2);
+bool operator!=(const Point &p1, const Point &p2);
 
 }
 
