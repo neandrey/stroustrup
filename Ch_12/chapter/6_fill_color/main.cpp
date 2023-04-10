@@ -57,7 +57,7 @@ int main()
     win.attach(ya);
     win.attach(xa);
     win.attach(sine);
-    win.set_label("Canvas #5");
+    win.set_label("Canvas #6");
 
     win.wait_for_button();
 }
