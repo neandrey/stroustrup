@@ -54,6 +54,10 @@ int main()
     //Текст
     Text t{Point{150, 150}, "Hello, graphical world!"};
 
+    //Выбор шрифта и размер символов
+    //t.set_font(Font::times_bold);
+    t.set_font_size(20);
+
     win.attach(t);    
     win.attach(poly_rect);
     win.attach(r); 
