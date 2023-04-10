@@ -16,7 +16,11 @@ int main()
     //Число делений - 10
     //Метка оси - "x axis"
 
+    Axis ya{Axis::y, Point(20, 300), 280, 10, "y axis"};
+    ya.set_color(Color::cyan);
+    ya.label.set_color(Color::dark_red);
 
+    win.attach(ya);
     win.attach(xa);
     win.set_label("Canvas #2");
 
