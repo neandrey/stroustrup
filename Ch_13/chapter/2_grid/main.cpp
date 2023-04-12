@@ -9,7 +9,7 @@ int main()
 
     Point x{100, 100};
 
-    Simple_window win(x, 600, 400, "Two lines");
+    Simple_window win(x, 600, 400, "Grid");
 
     int x_size = win.x_max();
     int y_size = win.y_max();
