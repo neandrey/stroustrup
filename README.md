@@ -77,4 +77,4 @@
 | Глава 12                                      |                                                     |
 | --------------------------------------------- | --------------------------------------------------- |
 | [ex1 Rectangle](/Ch_12/exercise/1_Rectangle/) | [ex2 Rect text](/Ch_12/exercise/2_Rect_text/)       |
-| ex3                                           | [ex4 Tic tac pole](/Ch_12/exercise/4_tic_tac_pole/) |
+| [ex3 Initials](/Ch_12/exercise/3_initials/)   | [ex4 Tic tac pole](/Ch_12/exercise/4_tic_tac_pole/) |
