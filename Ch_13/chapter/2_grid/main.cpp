@@ -22,6 +22,9 @@ int main()
 
     for(int y = y_grid; y < y_size; y += y_grid)
         grid.add(Point{0, y}, Point{x_size, y});
+
+    grid.set_color(Color::red);
+    grid.set_style(Line_style(Line_style::dot, 2));
     
     win.attach(grid);
     win.wait_for_button();
