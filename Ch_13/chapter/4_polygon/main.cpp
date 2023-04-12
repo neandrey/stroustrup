@@ -9,7 +9,7 @@ int main()
 
     Point x{100, 100};
 
-    Simple_window win(x, 600, 400, "Polyline");
+    Simple_window win(x, 600, 400, "Polygon");
 
     Polygon poly = {
         {100, 100}, {150, 200}, {250, 250}, {300, 200}
