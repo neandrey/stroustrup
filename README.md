@@ -80,3 +80,7 @@
 | [ex3 Initials](/Ch_12/exercise/3_initials/)   | [ex4 Tic tac pole](/Ch_12/exercise/4_tic_tac_pole/)   |
 | [ex7 Home](/Ch_12/exercise/7_home_pic/)       | [ex8 Olimpic ring](/Ch_12/exercise/8_olimpic_circle/) |
 | [ex9 Friend](/Ch_12/exercise/9_frend_photo/)  |
+
+| Глава 13                          |     |
+| --------------------------------- | --- |
+| [ex1 Arc](/Ch_13/exercise/1_arc/) |     |
