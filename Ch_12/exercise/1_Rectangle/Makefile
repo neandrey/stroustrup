@@ -6,10 +6,11 @@ PROGRAM_NAME = main.out
 ######################################################
 objects = main.o Simple_window.o Graph.o GUI.o Window.o
 main = main.cpp
-simple_window = ../GUI/Simple_window.cpp ../GUI/Simple_window.h 
-graph = ../GUI/Graph.cpp ../GUI/Graph.h
-gui = ../GUI/GUI.cpp ../GUI/GUI.h
-window = ../GUI/Window.cpp ../GUI/Window.h
+path = ../../GUI
+simple_window 	= $(path)/Simple_window.cpp  
+graph 			= $(path)/Graph.cpp 
+gui 			= $(path)/GUI.cpp 
+window			= $(path)/Window.cpp 
 
 all: $(PROGRAM_NAME)
 
