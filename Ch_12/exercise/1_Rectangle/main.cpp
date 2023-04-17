@@ -24,6 +24,7 @@ int main()
     r.set_color(Color::blue);
     r.set_style(Line_style(Line_style::dash, 2));
    
+    //добавление к окну
     win.attach(poly_rect);
     win.attach(r); 
 
