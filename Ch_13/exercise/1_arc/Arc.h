@@ -1,6 +1,6 @@
 #ifndef ARC_H
 #define ARC_H
-#include "../GUI/Graph.h"
+#include "../../GUI/Graph.h"
 
 namespace Graph_lib{
 
