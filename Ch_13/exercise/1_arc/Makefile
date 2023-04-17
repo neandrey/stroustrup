@@ -1,6 +1,6 @@
 #файл для сборки проекта 1_triangle
 CXX = g++
-CXXFLAG = `fltk-config --ldflags --use-images`
+CXXFLAG = -q `fltk-config --ldflags --use-images`
 CLEAN = rm -f
 PROGRAM_NAME = main.out
 ######################################################
