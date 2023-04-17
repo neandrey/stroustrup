@@ -1,6 +1,6 @@
-#include "../GUI/Simple_window.h"
-#include "../GUI/Graph.h"
-#include "../GUI/std_lib_facilities.h"
+#include "../../GUI/Simple_window.h"
+#include "../../GUI/Graph.h"
+#include "../../GUI/std_lib_facilities.h"
 
 int main()
 {
