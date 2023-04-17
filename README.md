@@ -79,7 +79,7 @@
 | [ex1 Rectangle](/Ch_12/exercise/1_Rectangle/) | [ex2 Rect text](/Ch_12/exercise/2_Rect_text/)         |
 | [ex3 Initials](/Ch_12/exercise/3_initials/)   | [ex4 Tic tac pole](/Ch_12/exercise/4_tic_tac_pole/)   |
 | [ex7 Home](/Ch_12/exercise/7_home_pic/)       | [ex8 Olimpic ring](/Ch_12/exercise/8_olimpic_circle/) |
-| [ex9 Friend](/Ch_12/exercise/9_frend_photo/)  |
+| [ex9 Friend](/Ch_12/exercise/9_frend_photo/)  | [ex10 Diagram](/Ch_12/exercise/10_diagram/)           |
 
 | Глава 13                          |     |
 | --------------------------------- | --- |
