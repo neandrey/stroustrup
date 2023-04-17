@@ -6,7 +6,7 @@ int main()
     using namespace Graph_lib;
 
     Point t1 {100, 100};
-    Simple_window win(t1, 400, 300, "My window");
+    Simple_window win(t1, 400, 300, "tic tac pole");
 
     //Прямоугольник
     Rectangle r11{Point{0, 0}, 100, 100};
