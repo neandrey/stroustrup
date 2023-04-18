@@ -81,6 +81,6 @@
 | [ex7 Home](/Ch_12/exercise/7_home_pic/)       | [ex8 Olimpic ring](/Ch_12/exercise/8_olimpic_circle/) |
 | [ex9 Friend](/Ch_12/exercise/9_frend_photo/)  | [ex10 Diagram](/Ch_12/exercise/10_diagram/)           |
 
-| Глава 13                          |     |
-| --------------------------------- | --- |
-| [ex1 Arc](/Ch_13/exercise/1_arc/) |     |
+| Глава 13                          |                                   |
+| --------------------------------- | --------------------------------- |
+| [ex1 Arc](/Ch_13/exercise/1_arc/) | [ex2 Box](/Ch_13/exercise/2_box/) |
