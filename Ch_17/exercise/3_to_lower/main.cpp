@@ -19,7 +19,7 @@ int main(){
 void to_lower(char *s)
 {
 
-    if(s == nullptr)
+    if(!s)
         return;
         
     while(*s != '\0'){
