@@ -30,15 +30,15 @@
 | [ex21 para points](/Ch_04/exercise/21_para_points/para_point.cpp)            |
 
 
-| Глава 5                                                                     |                                                                             |
-| --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| ex1                                                                         | [ex2 cels to kel](/Ch_05/exercise/2_cels_to_kelvin/cels_to_kelv.cpp)        |
-| [ex3 main error](/Ch_05/exercise/3_main_error/main_error.cpp)               | [ex4 ctok error](Ch_05/exercise/4_ctok_error/ctok_error.cpp)                |
-| [ex5 kelv to cels](/Ch_05/exercise/5_kelv_to_cels/kelv_to_cels.cpp)         | [ex6 cels to fahr](/Ch_05/exercise/6_cels_to_fahr/cels_to_fahr.cpp)         |
-| [ex7 sqr equation](/Ch_05/exercise/7_sqr_equation/sqr_equ.cpp)              | [ex8 int row](/Ch_05/exercise/8_int_row/int_row.cpp)                        |
-| [ex9 int row mess](/Ch_05/exercise/9_int_row_message/int_row_mes.cpp)       | [ex10 sub double row](/Ch_05/exercise/10_sub_double_row/sub_double_row.cpp) |
-| [ex11 fibonacci](Ch_05/exercise/11_fibonacci/fibonacci.cpp)                 | [ex12 bull cows](/Ch_05/exercise/12_bull_cows/bull_cows.cpp)                |
-| [ex13 bull cows rand](/Ch_05/exercise/13_bull_cows_rand/bull_cows_rand.cpp) | ex14                                                                        |
+| Глава 5                                                                       |                                                                             |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| ex1                                                                           | [ex2 cels to kel](/Ch_05/exercise/2_cels_to_kelvin/cels_to_kelv.cpp)        |
+| [ex3 main error](/Ch_05/exercise/3_main_error/main_error.cpp)                 | [ex4 ctok error](Ch_05/exercise/4_ctok_error/ctok_error.cpp)                |
+| [ex5 kelv to cels](/Ch_05/exercise/5_kelv_to_cels/kelv_to_cels.cpp)           | [ex6 cels to fahr](/Ch_05/exercise/6_cels_to_fahr/cels_to_fahr.cpp)         |
+| [ex7 sqr equation](/Ch_05/exercise/7_sqr_equation/sqr_equ.cpp)                | [ex8 int row](/Ch_05/exercise/8_int_row/int_row.cpp)                        |
+| [ex9 int row mess](/Ch_05/exercise/9_int_row_message/int_row_mes.cpp)         | [ex10 sub double row](/Ch_05/exercise/10_sub_double_row/sub_double_row.cpp) |
+| [ex11 fibonacci](Ch_05/exercise/11_fibonacci/fibonacci.cpp)                   | [ex12 bull cows](/Ch_05/exercise/12_bull_cows/bull_cows.cpp)                |
+| [ex13 bull cows rand  ](/Ch_05/exercise/13_bull_cows_rand/bull_cows_rand.cpp) | ex14                                                                        |
 
 
 | Глава 6                                                                        |                                                               |
