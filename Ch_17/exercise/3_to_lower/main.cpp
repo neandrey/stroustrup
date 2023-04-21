@@ -1,4 +1,4 @@
-//dynamic_memory
+//to_lower
 #include "std_lib_facilities.h" 
 
 void to_lower(char* s);
