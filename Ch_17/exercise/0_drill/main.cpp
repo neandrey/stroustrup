@@ -94,7 +94,6 @@ int main(){
     cout << endl;
 
 //vector
-
     vector<int> v1(10);
     vector<int> copy_v1(10);
     
