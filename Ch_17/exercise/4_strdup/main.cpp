@@ -6,7 +6,7 @@ char* strdup(const char* s);
 
 int main(){
 
-    char s1[] = "Hello world";
+    char* s1 = "Hello, World!";
     char* s2; 
 
     s2 = strdup(s1);
