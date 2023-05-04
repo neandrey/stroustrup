@@ -89,4 +89,4 @@
 | --------------------------------------------- | ------------------------------------------- |
 | [drill](/Ch_17/exercise/0_drill/)             | [ex3 to lower](/Ch_17/exercise/3_to_lower/) |
 | [ex4 strdup](/Ch_17/exercise/4_strdup/)       | [ex5 findx](/Ch_17/exercise/5_findx/)       |
-| [ex6 no memory](/Ch_17/exercise/6_no_memory/) |        |
+| [ex6 no memory](/Ch_17/exercise/6_no_memory/) |                                             |
