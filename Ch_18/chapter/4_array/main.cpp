@@ -3,10 +3,17 @@
 //------------------------------------------------
 void f(int n){
     char lac[20];
-
-    int lai[60];
-    double lad[n];
     
+    int lai[60];
+    //double lad[n]; размер массива не константа
+}
+
+void f2(){
+    char lac[20]; //до выхода из области видимости
+    lac[7] = 'a';
+    *lac = 'b';
+    //lac[-2] = 'b'; ??
+    //lac[200] = 'c'; ??
 }
 
 int strlen(const char* p){
@@ -18,26 +25,10 @@ int strlen(const char* p){
 }
 
 int main(){
-    
     const int max = 100;
     int gai[max];
+    f(5); 
+    f2();
 
-    f(5);
-
-    double ad[10]{0,0,0,0,0,0,0,0,0,0};
-    double* p = &ad[5];
-
-    *p = 7;
-    p[2] = 6;
-    p[-3] = 9;
-
-    for(double* p = &ad[0]; p < &ad[10]; ++p)
-        cout << *p << ' ';
-    cout << endl;
-
-    char ch[3] = {'a', 'b', 'c'};
-
-    cout << strlen(ch) << endl;
-    
     return 0;
 }
