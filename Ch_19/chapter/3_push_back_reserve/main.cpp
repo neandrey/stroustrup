@@ -4,27 +4,25 @@
 class My_vector{
     int sz;
     double* elem;
+    int space; //количество элементов + свободное место
 public:
 //Конструктор
+    My_vector() : sz{0}, elem{nullptr}, space{0}
+    {}
     explicit My_vector(int s) 
-    : sz{s},
-    elem{new double[s]}
+    : sz{s}, 
+    elem{new double[s]},
+    space{s}
     {
         for(int i = 0; i < sz; ++i)
             elem[i] = 0.0;
     }
-//Конструктор со списком инициализации
-    My_vector(initializer_list<double> lst)
-    : sz{lst.size()},
-    elem{new double[sz]}
-    {
-        copy(lst.begin(), lst.end(), elem);
-    }
-//Копирующий конструктор
+
+//Копирующий конструктор и присвоение
     My_vector(const My_vector& arg);
-//Копирующее присваивание
     My_vector& operator=(const My_vector&);
-//Перемещающий конструктор
+
+//Перемещающий конструктор и присваивание
     My_vector(My_vector&& a);
     My_vector& operator=(My_vector&&);
 
@@ -34,16 +32,14 @@ public:
 
 //Свойства
     int size() const { return sz; }
-    double get(int n) const { return elem[n]; }
-    void set(int n, double v) { elem[n] = v; }
+    int capacity() const;           //вывод доступной памяти vector
 
-    double& operator[](int n){
-        return elem[n];
-    }
+    double& operator[](int n){ return elem[n]; }
+    double operator[](int n) const{ return elem[n]; }
 
-    double operator[](int n) const{
-        return elem[n];
-    }
+    void reserve(int newalloc);     //добавление памяти для новых элементов.
+    void resize(int newsize);       //создаем вектор нового размера
+    void push_back(double d);       //увеличивает размер вектора
 };
 
 My_vector::My_vector(const My_vector& arg)
@@ -54,12 +50,23 @@ My_vector::My_vector(const My_vector& arg)
 
 My_vector& My_vector::operator=(const My_vector& a){
 
-    double* p = new double[a.sz];
-    copy(a.elem, a.elem + a.sz, p);
+    if(this == &a) return *this;
+
+    if(a.sz <= space){
+        for(int i = 0; i < a.sz; ++i)
+            elem[i] = a.elem[i];
+        sz = a.sz;
+        return *this;
+    }
+
+    double *p = new double[a.sz];
+    for(int i = 0; i < a.sz; ++i)
+        p[i] = a.elem[i];
     delete[] elem;
+    space = sz = a.sz;
     elem = p;
-    sz = a.sz;
     return *this;
+    
 }
 
 My_vector::My_vector(My_vector&& a)
@@ -78,36 +85,65 @@ My_vector& My_vector::operator=(My_vector&& a){
     a.sz = 0;
     return *this;
 }
-//------------------------------------------------
-void f(const My_vector& cv){
 
-    double d = cv[1];
-    //cv[1] = 2.0; //error
+void My_vector::reserve(int newalloc){
+
+    if(newalloc <= space) return;
+    double* p = new double[newalloc];
+    for(int i=0; i<sz; ++i)
+        p[i] = elem[i];
+    delete[] elem;
+    elem = p;
+    space = newalloc;
 }
-//------------------------------------------------
-void ff(const My_vector& cv, My_vector& v){
+
+int My_vector::capacity() const{
+    return space;
+}
+
+void My_vector::resize(int newsize){
+
+    reserve(newsize);
+    for(int i = sz; i < newsize; ++i)
+        elem[i] = 0;
+    sz = newsize;
+}
+
+void My_vector::push_back(double d){
     
-    double d = cv[1];
-    //cv[1] = 2.0; //error
-    d = v[1];
-    v[1] = 2.0;
+    if(space == 0)
+        reserve(8);
+    else if (sz == space)
+        reserve(2*space);
+    elem[sz] = d;
+    ++sz;
 }
+//------------------------------------------------
+void print_vec(My_vector& v){
 
+    for(size_t i = 0; i != v.size(); ++i)
+        cout << v[i] << ' ';
+}
 //------------------------------------------------
 int main(){
+    My_vector vec(1), vec1;
 
-    My_vector v(10);
+    cout << vec.capacity() << endl;
 
-    for(int i = 0; i < v.size(); ++i){
-        v[i] = i;
-        cout << v[i] << ' ';
-    } 
+    for(int i = 1; i < 10; ++i)
+        vec.push_back(i);
+
+    print_vec(vec);
     cout << endl;
 
-    //f(v);
+    cout << vec.capacity() << endl; 
 
-    ff(v, v);
+    vec1 = vec;
 
-    
+    print_vec(vec1);
+    cout << endl;
+
+    cout << vec1.capacity() << endl;
+
     return 0;
 }
