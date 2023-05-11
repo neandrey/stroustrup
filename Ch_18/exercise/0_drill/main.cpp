@@ -38,7 +38,7 @@ void print_arr(const int arr[], int l){
     cout << endl;
 }
 
-void init_arr(int arr[], int l){
+void init_fact(int arr[], int l){
 //заполняем факториал
     int sum = 1;
     for(size_t i = 1 ; i <= l; ++i){
@@ -74,7 +74,7 @@ void print_vec(const vector<int>& v){
     cout << endl;
 }
 
-void init_vector(vector<int>& v){
+void init_fact(vector<int>& v){
 //инициализация вектора
     int sum = 1;
     for(size_t i = 1; i <= v.size(); ++i)
@@ -86,13 +86,13 @@ int main()
     //array
     f(ga, length);
     int aa[length];
-    init_arr(aa, length);
+    init_fact(aa, length);
     f(aa, length);
 
     //vector
     f(gv);
     vector<int> vv(10, 0);
-    init_vector(vv);
+    init_fact(vv);
     f(vv);
 
     return 0;
