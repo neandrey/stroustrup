@@ -81,12 +81,25 @@
 | [ex7 Home](/Ch_12/exercise/7_home_pic/)       | [ex8 Olimpic ring](/Ch_12/exercise/8_olimpic_circle/) |
 | [ex9 Friend](/Ch_12/exercise/9_frend_photo/)  | [ex10 Diagram](/Ch_12/exercise/10_diagram/)           |
 
+
 | Глава 13                          |                                   |
 | --------------------------------- | --------------------------------- |
 | [ex1 Arc](/Ch_13/exercise/1_arc/) | [ex2 Box](/Ch_13/exercise/2_box/) |
 
+
 | Глава 17                                      |                                             |
 | --------------------------------------------- | ------------------------------------------- |
-| [drill](/Ch_17/exercise/0_drill/)             | [ex3 to lower](/Ch_17/exercise/3_to_lower/) |
+| [0_drill](/Ch_17/exercise/0_drill/)           | [ex3 to lower](/Ch_17/exercise/3_to_lower/) |
 | [ex4 strdup](/Ch_17/exercise/4_strdup/)       | [ex5 findx](/Ch_17/exercise/5_findx/)       |
 | [ex6 no memory](/Ch_17/exercise/6_no_memory/) |                                             |
+
+
+| Глава 18                              |                                         |
+| ------------------------------------- | --------------------------------------- |
+| [0_drill](/Ch_18/exercise/0_drill/)   | [ex1 strdup](/Ch_18/exercise/1_strdup/) |
+| [ex2 findx](/Ch_18/exercise/2_findx/) |                                         |
+
+
+| Глава 19                            |     |
+| ----------------------------------- | --- |
+| [0_drill](/Ch_19/exercise/0_drill/) |     |
