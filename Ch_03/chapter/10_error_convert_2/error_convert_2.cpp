@@ -1,4 +1,4 @@
-//Сужающие преобразования
+//Сужающие преобразования версия 2
 #include "std_lib_facilities.h"
 
 
@@ -11,7 +11,7 @@ int main(){
 		char c = i;
 		int i2 = c;
 
-		cout << " d = " << d
+		cout << " d = " << d 
 			<< " i = " << i
 			<< " i2 = " << i2
 			<< " char(" << c << ")\n";
