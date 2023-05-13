@@ -1,4 +1,4 @@
-//преобразование миль в км.
+//преобразование миль в км double.
 #include "std_lib_facilities.h"
 
 int main(){
