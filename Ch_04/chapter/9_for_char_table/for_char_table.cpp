@@ -1,3 +1,4 @@
+//for char table
 #include "std_lib_facilities.h"
 
 int main(){
