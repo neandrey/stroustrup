@@ -1,3 +1,4 @@
+//вычисляем стреднюю и медиану значений температур.
 #include "std_lib_facilities.h"
 
 int main(){
