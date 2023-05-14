@@ -1,3 +1,4 @@
+//перевод рублей в доллары и наоборот
 #include "std_lib_facilities.h"
 
 int main(){
@@ -12,10 +13,10 @@ int main(){
 	cin >> sum >> unit;
 
 	if (unit == 'd')
-		cout << sum << "dollar = "
+		cout << sum << " dollar = "
 			<< rub_per_dollar * sum << " rub" << endl;
 	else if(unit == 'r')
-		cout << sum << "rub = "
+		cout << sum << " rub = "
 			<< sum / rub_per_dollar << " dollar" << endl;
 	else
 		cout << "Извините, я не знаю, что такое "
