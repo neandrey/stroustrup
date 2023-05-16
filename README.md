@@ -6,13 +6,13 @@
 | [ex1 out two string](Ch_02/exercise/1_out_two_string/out_two_string.cpp) |
 
 
-| Глава 3                                                                      |                                                                                 |
-| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| [ex1 basic calc](/Ch_03/exercise/basic_calc/basic_calc.cpp)                  | [ex2 mile to km](/Ch_03/exercise/mile_to_km/mile_to_km.cpp)                     |
-| [ex3 part numb](/Ch_03/exercise/part_numb/part_numb.cpp)                     | [ex4 sum money](/Ch_03/exercise/sum_money/sum_money.cpp)                        |
-| [ex5 three strings](/Ch_03/exercise/three_strings/three_strings.cpp)         | [ex6 three values](/Ch_03/exercise/three_values/three_values.cpp)               |
-| [ex7 two values](/Ch_03/exercise/two_values/two_values.cpp)                  | [ex7 two values double](/Ch_03/exercise/two_values_double/std_lib_facilities.h) |
-| [ex8 word to numb           ](/Ch_03/exercise/word_to_numb/word_to_numb.cpp) |
+| Глава 3                                                             |                                                                                    |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [0_drill](/Ch_03/exercise/0_drill/letter.cpp)                       | [ex2 mile to km](/Ch_03/exercise/2_mile_to_km/mile_to_km.cpp)                      |
+| [ex3 two values](/Ch_03/exercise/3_two_values/two_values.cpp)       | [ex4 two values double](/Ch_03/exercise/4_two_values_double/two_values_double.cpp) |
+| [ex6 three values](/Ch_03/exercise/6_three_values/three_values.cpp) | [ex7 three strings](/Ch_03/exercise/7_three_strings/three_strings.cpp)             |
+| [ex8 part numb](/Ch_03/exercise/8_part_numb/part_numb.cpp)          | [ex9 word to numb](/Ch_03/exercise/9_word_to_numb/word_to_numb.cpp)                |
+| [ex10 basic calc](/Ch_03/exercise/10_basic_calc/basic_calc.cpp)     | [11 sum money](/Ch_03/exercise/11_sum_money/sum_money.cpp)
 
 
 | Глава 4                                                                      |                                                                                |
