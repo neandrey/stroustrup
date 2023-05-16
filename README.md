@@ -12,7 +12,7 @@
 | [ex3 two values](/Ch_03/exercise/3_two_values/two_values.cpp)       | [ex4 two values double](/Ch_03/exercise/4_two_values_double/two_values_double.cpp) |
 | [ex6 three values](/Ch_03/exercise/6_three_values/three_values.cpp) | [ex7 three strings](/Ch_03/exercise/7_three_strings/three_strings.cpp)             |
 | [ex8 part numb](/Ch_03/exercise/8_part_numb/part_numb.cpp)          | [ex9 word to numb](/Ch_03/exercise/9_word_to_numb/word_to_numb.cpp)                |
-| [ex10 basic calc](/Ch_03/exercise/10_basic_calc/basic_calc.cpp)     | [11 sum money](/Ch_03/exercise/11_sum_money/sum_money.cpp)
+| [ex10 basic calc](/Ch_03/exercise/10_basic_calc/basic_calc.cpp)     | [11 sum money](/Ch_03/exercise/11_sum_money/sum_money.cpp)                         |
 
 
 | Глава 4                                                                      |                                                                                |
@@ -32,13 +32,13 @@
 
 | Глава 5                                                                       |                                                                             |
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| ex1                                                                           | [ex2 cels to kel](/Ch_05/exercise/2_cels_to_kelvin/cels_to_kelv.cpp)        |
+| [0_drill](/Ch_05/exercise/0_drill/drill.cpp)                                  | [ex2 cels to kel](/Ch_05/exercise/2_cels_to_kelvin/cels_to_kelv.cpp)        |
 | [ex3 main error](/Ch_05/exercise/3_main_error/main_error.cpp)                 | [ex4 ctok error](Ch_05/exercise/4_ctok_error/ctok_error.cpp)                |
 | [ex5 kelv to cels](/Ch_05/exercise/5_kelv_to_cels/kelv_to_cels.cpp)           | [ex6 cels to fahr](/Ch_05/exercise/6_cels_to_fahr/cels_to_fahr.cpp)         |
 | [ex7 sqr equation](/Ch_05/exercise/7_sqr_equation/sqr_equ.cpp)                | [ex8 int row](/Ch_05/exercise/8_int_row/int_row.cpp)                        |
 | [ex9 int row mess](/Ch_05/exercise/9_int_row_message/int_row_mes.cpp)         | [ex10 sub double row](/Ch_05/exercise/10_sub_double_row/sub_double_row.cpp) |
 | [ex11 fibonacci](Ch_05/exercise/11_fibonacci/fibonacci.cpp)                   | [ex12 bull cows](/Ch_05/exercise/12_bull_cows/bull_cows.cpp)                |
-| [ex13 bull cows rand  ](/Ch_05/exercise/13_bull_cows_rand/bull_cows_rand.cpp) | ex14                                                                        |
+| [ex13 bull cows rand  ](/Ch_05/exercise/13_bull_cows_rand/bull_cows_rand.cpp) | [ex14 para](/Ch_05/exercise/14_para/para.cpp)                               |
 
 
 | Глава 6                                                                        |                                                               |
